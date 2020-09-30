@@ -3,7 +3,8 @@
 using namespace std;
 
 int main() {
-    cout << "Hola Mundo!" << endl; // eliminar esta línea
-
+    string l;
+    getline(cin,l);
+    cout<<l.size()<<endl;
     return 0;
 }
